@@ -9,7 +9,7 @@
 	var className = "navbar-ontop"
 	
 	// we start hidden, to avoid flickering
-	document.write("<style id='temp-navbar-ontop'>.navbar {transition: none !important}</style>")
+	document.write("<style id='temp-navbar-ontop'>.navbar {opacity:0; transition: none !important}</style>")
 
 	function update() {
 		// toggle className based on the scrollTop property of document
